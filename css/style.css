@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+}
+
+
+    .nav-underline .nav-link {
+        padding-right: 70px;
+        padding-left: 10px;
+        font-size: 24px;
+        font-family: 'Merriweather', serif;
+    }
+
+
+    .nav-underline .nav-link:hover{
+        color: pink;
+    }
+
+    .dropdown-item {
+        color: #07439C;
+        font-size: 20px;
+        font-family: 'Merriweather', serif;
+
+    }
+
+    .dropdown-item:hover {
+        text-decoration: underline;
+        color: pink;
+    }
+
+    /* Midle section */
+
+    .FMSC {
+        margin-right: 300px;
+        
+    }
+
+    
+    .display-4 {
+        padding-left: 100px;
+        padding-top: 200px;
+        font-size: 32px;
+        font-weight: 600;
+        font-family: 'Merriweather', serif;
+        color: white;
+    }
+
+ .lead {
+        font-size: 28px;
+        color: #07439C;
+        font-family: 'Merriweather', serif;
+        margin-left: 100px;
+        margin-top: 10p;
+      
+    }
+
+
+ .opis{  color: #07439C;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        width: 500px;
+        margin-left: 100px;
+        font-size: 20px;
+    }
+
+    .row {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+    .card-body {
+        width: auto;
+        height: 250px;
+    }
+
+    .card-title {
+        color: #07439C;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Merriweather', serif;
+    }
