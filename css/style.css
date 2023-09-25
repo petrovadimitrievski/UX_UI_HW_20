@@ -97,8 +97,14 @@
 /* Cards */
     .card-body {
         width: auto;
+        height: auto;
+    }
+
+    .T{
+        width: auto;
         height: 400px;
     }
+
 
     .card-title {
         color: #07439C;
