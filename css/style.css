@@ -5,7 +5,7 @@
 
 
 .jumbotron{
-    background-image: url(/images/background.png);
+  background-image: url(/images/background.png);
   background-repeat: no-repeat;
 }
 
@@ -42,38 +42,39 @@
 
     /* Midle section */
 
-    .D {position: absolute;}
+    .D {
+        position: absolute;
+    }
 
    .logo{
-    /* display: flex;
-    justify-content: space-between; */
-    padding-top: 350px;
-    /* padding-right: 100px; */
-    /* grid-gap: 200px; */
-
+     padding-top: 350px;
     }
 
 
-     
-    
     h1{
         
         font-size: 32px;
         font-weight: 600;
         font-family: 'Merriweather', serif;
         color: white;
-        padding-left: 10px;
-        padding-right: 10px;
+        /* padding-left: 10px;
+        padding-right: 10px; */
     }
 
 
 
 .row {
-        /* margin-left: 10px; */
-        margin-right: 10px;
-        margin-top: 30px;
+        padding-bottom: 150px;
     }   
     
+
+
+    .row2 {
+        padding-top: 250px;
+        padding-bottom: 100px;
+
+    }
+
  .opis{  
         font-family: 'Roboto', Arial, Helvetica, sans-serif;
         width: 500px;
@@ -87,15 +88,16 @@
     padding-left: 110px;
     font-size: 24px;
     font-weight: 700;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+    font-weight: 600;
    
 
 }
 
-
+/* Cards */
     .card-body {
         width: auto;
-        height: 250px;
+        height: 400px;
     }
 
     .card-title {
@@ -103,35 +105,307 @@
         text-align: center;
         font-size: 24px;
         font-family: 'Merriweather', serif;
+        font-weight: 600;
+        padding-top: 50px;
     }
 
+
+    .card-text, .a{
+        text-align: center;
+    }
     /* Problem statment */
 
     .z{
-        font-size: 28px;
+        font-size: 34px;
         color: #07439C;
         font-family: 'Merriweather', serif;
         margin-left: 100px;
-        padding-top: 150px;
+        padding-top: 50px;
         padding-bottom: 50px;
+        font-weight: 700;
+        align-items: center;
+        text-align: center;
+        text-decoration: underline;
     }
 
-@media all and (max-width:700px) {
 
-    /* .D {
-        width: 150px !important;
-        height: auto;
-        padding-top: 10px;
-        position: relative!important;
-       
-        
-    } */
+    .sub {
+        color: #07439C;
+        font-family: 'Merriweather', serif;
+        font-weight: 600;
+    }
+
+.goals {text-align: left;
+}
+
+.text-center1 {align-items: center;}
+
+/* <!-- Heuristic --> */
+
+li, p{font-size: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+}
+
+
+.analiza{
+    font-weight: 600;
+    padding-top: 50px;
+    text-align: left;
+}
+
+
+
+/* <!-- Competitor Analises --> */
+
+
+.CA {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: auto;
+}
+
+.Com{
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.bb {
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+ /* USER RESERCH  */
+
+ .userR {
+        font-size: 28px;
+        color: #07439C;
+        font-family: 'Merriweather', serif;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        font-weight: 600; 
+        text-align: center;
+ }
+
+.user {
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+
+.usertext {
+    font-size: 16px;
+    text-align: center;
+    padding-left: 5px !important;
+    
+
+}
+
+.rowUser {
+    margin: auto;
+}
+
+
+/* <!-- DEFINE --> */
+
+.definepic {
+    padding-top: 100px;
+    width: 100rem; 
+    height: auto;
+    padding-right: 50px;
+}
+
+
+.def {
+    font-size: 24px;
+}
+
+.DF {
+    font-size: 20px;
+    color: #07439C;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 50px;
+    
+}
+
+.matrix {
+    width: auto;
+    height: auto;
+   margin-top: 50px;
+}
+
+
+
+/* <!-- User Persona --> */
+
+.uP {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.userPersona{
+    padding-top: 200px;
+}
+
+.scenario{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* Definition & Ideation */
+.Ideation {
+    width: auto;
+    height: auto;
+}
+
+
+
+/* How our Research Highlighted the decision we made */
+
+
+.sub2{ font-size: 20px;
+}
+
+
+/* <!-- Prototyping --> */
+
+.lowprototype{
+margin-top: 100px;
+}
+
+
+/* <!-- Testing and Iterating --> */
+
+ul{font-size: 24px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+li {font-size: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+
+.card-body{
+    height: auto; 
+}
+
+
+
+
+
+.MP2 {
+    width: 20%;
+    height: auto;
+   margin-top: 50px;
+   margin-left: 550px;
+   /* How to alighn center? */
+}
+
+
+.MP3 {
+    width: 40%;
+    height: auto;
+   margin-left: 400px;
+   margin-top: 50px;
+}
+
+
+.final {
+    padding-top: 50px;
+}
+
+
+.end {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/* Buttons*/
+
+.projects {
+    background-color: #07439C;
+    font-weight: 600;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;;
+    
+}
+
+.projects:hover {
+    transform: all 0.5s ease-in;
+    background-color: pink;
+    color:#07439C;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+
+.contactButton:hover{
+    transform: all 0.5s ease-in;
+    background-color:#07439C;
+    color: white;
+    font-weight: 600;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    }
+
+
+.contactButton{
+background-color: pink;
+color: #07439C;
+font-weight: 600;
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.thankYou {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+
+@media all and (max-width:900px) {
+
 
 .D{
+    position: relative!important;
     max-width: 100%;
-    max-height: 300px;
+}
+
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+ padding-left: 20px;
+}
+
+.logo {padding-top: 250px;}
+
+.card-text {
+    font-size: 18px;
+}
+
+.by{margin-left: 10px;
+height: 1300px;
+} 
+
+.card-body {
+    width: auto;
+    height: auto;
+    
+    
 }
 
 
 
-}
+} 
+
