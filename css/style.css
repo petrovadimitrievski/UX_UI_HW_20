@@ -1,164 +1,168 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-.jumbotron{
-background-image: url(../images/background.png);
-background-repeat: no-repeat;
+.jumbotron {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
 
 }
 
 .navbar-expand-lg {
-display: inline;
-justify-content: space-between;
+    display: inline;
+    justify-content: space-between;
 }
 
 .nav-underline .nav-link {
-display: inline;
-padding-right: 70px;
-padding-left: 10px;
-font-size: 24px;
-font-family: 'Merriweather', serif;
-justify-content: space-between;
+    display: inline;
+    padding-right: 70px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    justify-content: space-between;
 }
 
 
-.nav-underline .nav-link:hover{
-color: rgb(245, 71, 100);
+.nav-underline .nav-link:hover {
+    color: rgb(245, 71, 100);
 }
 
 .dropdown-item {
-color: #07439C;
-font-size: 20px;
-font-family: 'Merriweather', serif;
+    color: #07439C;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
 }
 
 .dropdown-item:hover {
-text-decoration: underline;
-color: rgb(245, 71, 100);
+    text-decoration: underline;
+    color: rgb(245, 71, 100);
 }
 
 /* Midle section */
 
 .D {
-position: absolute;
+    position: absolute;
 }
 
-.logo{
-padding-top: 350px;
+.logo {
+    padding-top: 350px;
 }
 
 
-h1{
-font-size: 32px;
-font-weight: 600;
-font-family: 'Merriweather', serif;
-color: white;
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    color: white;
 }
 
 
 .row {
-padding-bottom: 150px;
-}   
-    
-
-.row2 {
-padding-top: 250px;
-padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
-.opis{  
-font-family: 'Roboto', Arial, Helvetica, sans-serif;
-width: 500px;
-margin-left: 100px;
-font-size: px;
+
+.row2 {
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+
+.opis {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin-left: 100px;
+    font-size: px;
 }
 
 
 .lead {
-color: #07439C;
-padding-left: 110px;
-font-size: 28px;
-font-weight: 700;
-font-family: 'Merriweather', Arial, Helvetica, sans-serif;
-font-weight: 600;
+    color: #07439C;
+    padding-left: 110px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 /* Cards */
 .card-body {
-width: auto;
-height: auto;
+    width: auto;
+    height: auto;
 }
 
-.T{
-width: auto;
-height: 400px;
+.T {
+    width: auto;
+    height: 400px;
 }
 
 .card-title {
-color: #07439C;
-text-align: center;
-font-size: 24px;
-font-family: 'Merriweather', serif;
-font-weight: 600;
-padding-top: 50px;
+    color: #07439C;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    padding-top: 50px;
 }
 
 
-.card-text, .alist {
-text-align: center;
-font-size: 18px;
+.card-text,
+.alist {
+    text-align: center;
+    font-size: 18px;
 }
 
 
- /* Problem statment */
+/* Problem statment */
 
-.z{
-font-size: 24px;
-color: #07439C;
-font-family: 'Merriweather', serif;
-margin-left: 100px;
-padding-top: 50px;
-padding-bottom: 50px;
-font-weight: 700;
-align-items: center;
-text-align: center;
-text-decoration: underline;
+.z {
+    font-size: 24px;
+    color: #07439C;
+    font-family: 'Merriweather', serif;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .sub {
-color: #07439C;
-font-family: 'Merriweather', serif;
-font-weight: 600;
-font-size: 20px;
-padding-top: 10px;
-    }
+    color: #07439C;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+}
 
-.goals {text-align: left;
+.goals {
+    text-align: left;
     font-size: 20px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.text-center1 {align-items: center;}
+.text-center1 {
+    align-items: center;
+}
 
 
 
 
 /* <!-- Heuristic --> */
 
-li, p{
-font-size: 20px;
-font-family: 'Roboto', Arial, Helvetica, sans-serif;
+li,
+p {
+    font-size: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 
-.analiza{
-padding-top: 30px;
-text-align: left;
-font-size: 20px;
+.analiza {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 20px;
 }
 
 
@@ -167,84 +171,84 @@ font-size: 20px;
 
 
 .CA {
-margin: 50px auto 50px auto;
-height: 800px;
-width: auto;
+    margin: 50px auto 50px auto;
+    height: 800px;
+    width: auto;
 }
 
-.Com{
-margin-left: 300px;
-margin-top: 100px;
-margin-bottom: 100px;
+.Com {
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
 .bb {
-width: auto;
-height: auto;
-padding-left: 30px;
-padding-right: 30px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
 
- /* USER RESERCH  */
+/* USER RESERCH  */
 
- .userR {
-font-size: 24px;
-color: #07439C;
-font-family: 'Merriweather', serif;
-padding-top: 150px;
-padding-bottom: 50px;
-font-weight: 600; 
-text-align: center;
- }
+.userR {
+    font-size: 24px;
+    color: #07439C;
+    font-family: 'Merriweather', serif;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    text-align: center;
+}
 
 .user {
-margin-left: 30px;
-margin-top: 10px;
-padding-top: 10px;
-align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    align-items: center;
 }
 
 
 .usertext {
-font-size: 16px;
-text-align: center;
-padding-left: 5px !important;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 5px !important;
 }
 
 .rowUser {
-margin: auto;
+    margin: auto;
 }
 
 
 /* <!-- DEFINE --> */
 
 .definepic {
-padding-top: 100px;
-width: 100rem; 
-height: auto;
-padding-right: 50px;
+    padding-top: 100px;
+    width: 100rem;
+    height: auto;
+    padding-right: 50px;
 }
 
 
 .def {
-font-size: 20px;
+    font-size: 20px;
 }
 
 .DF {
-font-size: 20px;
-color: #07439C;
-text-align: left;
-font-weight: 600;
-margin-top: 50px;  
+    font-size: 20px;
+    color: #07439C;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 50px;
 }
 
 .matrix {
-width: auto;
-height: auto;
-margin-top: 50px;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
 }
 
 
@@ -252,85 +256,85 @@ margin-top: 50px;
 /* <!-- User Persona --> */
 
 .uP {
-padding-left: 50px;
+    padding-left: 50px;
 }
 
-.userPersona{
-padding-top: 200px;
+.userPersona {
+    padding-top: 200px;
 }
 
-.scenario{
-font-weight: 600;
-font-size: 20px;
-padding-top: 30px;
+.scenario {
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 30px;
 }
 
 
 
 /* Definition & Ideation */
 .Ideation {
-width: auto;
-height: auto;
+    width: auto;
+    height: auto;
 }
 
 
 
 
 .side {
-padding-left: 400px;   
+    padding-left: 400px;
 }
 
 
 
 /* <!-- Prototyping --> */
 
-.lowprototype{
-margin-top: 100px;
+.lowprototype {
+    margin-top: 100px;
 }
 
 
 /* <!-- Testing and Iterating --> */
 
-ul{
-font-size: 24px;
-font-family: 'Roboto', Arial, Helvetica, sans-serif;
+ul {
+    font-size: 24px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 
 
-.card-body{
-height: auto; 
+.card-body {
+    height: auto;
 }
 
 
 
- /* Prototype to Figma*/ 
+/* Prototype to Figma*/
 
 .MP2 {
-width: 20%;
-height: auto;
-margin: 50px auto 0 auto;
+    width: 20%;
+    height: auto;
+    margin: 50px auto 0 auto;
 }
 
 
 .MP3 {
-width: 40%;
-height: auto;
-margin: 50px auto 0 auto;
-   
+    width: 40%;
+    height: auto;
+    margin: 50px auto 0 auto;
+
 }
 
 
 .final {
-padding-top: 50px;
+    padding-top: 50px;
 }
 
 
 .end {
-text-align: center;
-align-items: center;
-margin-bottom: 100px;
-margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 /* Buttons*/
@@ -338,33 +342,34 @@ margin-top: 100px;
 .projects {
     background-color: #07439C;
     font-weight: 600;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;;
-    
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    ;
+
 }
 
 .projects:hover {
     transform: all 0.5s ease-in;
     background-color: pink;
-    color:#07439C;
+    color: #07439C;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 
 
-.contactButton:hover{
+.contactButton:hover {
     transform: all 0.5s ease-in;
-    background-color:#07439C;
+    background-color: #07439C;
     color: white;
     font-weight: 600;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    }
+}
 
 
-.contactButton{
-background-color: pink;
-color: #07439C;
-font-weight: 600;
-font-family: 'Roboto', Arial, Helvetica, sans-serif;
+.contactButton {
+    background-color: pink;
+    color: #07439C;
+    font-weight: 600;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .thankYou {
@@ -379,37 +384,39 @@ font-family: 'Roboto', Arial, Helvetica, sans-serif;
 @media all and (max-width:900px) {
 
 
-.D{
-    position: relative!important;
-    max-width: 100%;
-}
-
-.row {
-    padding-top: 10px;
-    padding-bottom: 10px;
- padding-left: 20px;
-}
-
-.logo {padding-top: 250px;}
-
-.card-text {
-    font-size: 18px;
-}
-
-.by{margin-left: 10px;
-height: 1300px;
-} 
-
-.card-body {
-    width: auto;
-    height: auto;  
-}
-
-.side {
-    padding-left: 0;   
+    .D {
+        position: relative !important;
+        max-width: 100%;
     }
-    
+
+    .row {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+
+    .logo {
+        padding-top: 250px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+    .by {
+        margin-left: 10px;
+        height: 1300px;
+    }
+
+    .card-body {
+        width: auto;
+        height: auto;
+    }
+
+    .side {
+        padding-left: 0;
+    }
 
 
-} 
 
+}
