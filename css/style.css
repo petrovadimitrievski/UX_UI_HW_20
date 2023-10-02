@@ -60,7 +60,7 @@ h1 {
 
 
 .row {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 
@@ -152,8 +152,7 @@ h1 {
 
 /* <!-- Heuristic --> */
 
-li,
-p {
+li, p {
     font-size: 20px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
@@ -258,7 +257,7 @@ p {
 }
 
 .scenario {
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 20px;
     padding-top: 30px;
 }
@@ -283,7 +282,7 @@ p {
 /* <!-- Prototyping --> */
 
 .lowprototype {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
