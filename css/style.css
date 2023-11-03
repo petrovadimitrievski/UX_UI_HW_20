@@ -3,12 +3,77 @@
     padding: 0;
 }
 
-
 .jumbotron {
-    background-image: url(../images/background.png);
-    background-repeat: no-repeat;
+    background-color: #004E89;
+    border-radius: 0rem 0rem 3rem 3rem;
+    width: auto;
+    height: 450px;
+
 
 }
+
+.video-section {
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.animated-gif {
+    width: 300px;
+    height: 550px;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.hero-tittle {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    color: #FF6835;
+    padding-left: 20px;
+}
+
+.one {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    color: #FF6835;
+    margin-top: 50px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+
+}
+
+.two {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+    color: #004E89;
+    padding-left: 10px;
+    /* padding-bottom: 20px; */
+
+}
+
+.tri {
+    color: #FF6835;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+
+/* End middle */
 
 .navbar-expand-lg {
     display: inline;
@@ -22,33 +87,28 @@
     font-size: 24px;
     font-family: 'Merriweather', serif;
     justify-content: space-between;
+    color: #FF6835;
 }
 
 
 .nav-underline .nav-link:hover {
-    color: rgb(245, 71, 100);
+    color: white;
 }
 
 .dropdown-item {
-    color: #07439C;
+    color: #FF6835;
     font-size: 20px;
     font-family: 'Merriweather', serif;
 }
 
 .dropdown-item:hover {
     text-decoration: underline;
-    color: rgb(245, 71, 100);
+    color: #004E89;
 }
+
+
 
 /* Midle section */
-
-.D {
-    position: absolute;
-}
-
-.logo {
-    padding-top: 350px;
-}
 
 
 h1 {
@@ -61,6 +121,7 @@ h1 {
 
 .row {
     padding-bottom: 100px;
+
 }
 
 
@@ -81,7 +142,7 @@ h1 {
 
 
 .lead {
-    color: #07439C;
+    color: #004E89;
     padding-left: 110px;
     font-size: 28px;
     font-weight: 700;
@@ -93,6 +154,14 @@ h1 {
 .card-body {
     width: auto;
     height: auto;
+
+}
+
+.border-danger {
+    border: 5rem;
+    border-color: hsl(15, 100%, 60%);
+    box-shadow: 0 12px 16px 0 rgba(250, 108, 51, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .T {
@@ -101,13 +170,17 @@ h1 {
 }
 
 .card-title {
-    color: #07439C;
+    color: #004E89;
     text-align: center;
     font-size: 24px;
     font-family: 'Merriweather', serif;
     font-weight: 600;
     padding-top: 50px;
 }
+
+
+
+
 
 
 .card-text,
@@ -117,46 +190,15 @@ h1 {
 }
 
 
-/* Problem statment */
-
-.z {
-    font-size: 24px;
-    color: #07439C;
-    font-family: 'Merriweather', serif;
-    margin-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-weight: 700;
-    align-items: center;
-    text-align: center;
-    text-decoration: underline;
+i {
+    padding-right: 10px;
 }
-
-.sub {
-    color: #07439C;
-    font-family: 'Merriweather', serif;
-    font-weight: 600;
-    font-size: 20px;
-    padding-top: 10px;
-    
-}
-
-.goals {
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-}
-
-.text-center1 {
-    align-items: center;
-}
-
-
 
 
 /* <!-- Heuristic --> */
 
-li, p {
+li,
+p {
     font-size: 20px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
@@ -172,30 +214,44 @@ li, p {
 
 /* <!-- Competitor Analises --> */
 
-
-.Com {
-    margin-left: 300px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+.COM {
+    padding-bottom: 30px;
+    font-size: 28px;
 }
-
-
-.bb {
-    width: auto;
-    height: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-
 
 /* USER RESERCH  */
 
+
+.z {
+    color: #004E89;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    
+}
+
+
+/* USER PERSONA */
+.goals {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+.AA {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+
+
 .userR {
     font-size: 24px;
-    color: #07439C;
+    color: #FF6835;
     font-family: 'Merriweather', serif;
-    padding-top: 150px;
     padding-bottom: 50px;
     font-weight: 600;
     text-align: center;
@@ -206,21 +262,33 @@ li, p {
     margin-top: 10px;
     padding-top: 10px;
     align-items: center;
+    box-shadow: 0 12px 16px 0 #004E89, 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 .usertext {
     font-size: 16px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     text-align: center;
     padding-left: 5px !important;
 }
 
 .rowUser {
     margin: auto;
+    margin-bottom: 100px;
 }
 
 
+
+
+
+
+
 /* <!-- DEFINE --> */
+
+.DEF{
+    border-color: #FF6835;
+}
 
 .definepic {
     padding-top: 100px;
@@ -230,41 +298,41 @@ li, p {
 }
 
 
-.def {
-    font-size: 20px;
-}
-
-.DF {
-    font-size: 20px;
-    color: #07439C;
-    text-align: left;
-    font-weight: 600;
-    margin-top: 50px;
-}
-
 .matrix {
     width: auto;
     height: auto;
     margin-top: 50px;
+    border-color: white;
 }
 
 
 
 /* <!-- User Persona --> */
 
-.uP {
-    padding-left: 50px;
+.card-img-bottom {
+    margin-bottom: 100px;
+    align-items: center;
 }
 
+
+.card-img-bottom2 {
+    margin-bottom: 100px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+
 .userPersona {
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .scenario {
-    /* font-weight: 600; */
-    font-size: 20px;
-    padding-top: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+color: #FF6835;
 }
+
 
 
 
@@ -277,16 +345,17 @@ li, p {
 
 
 
-.side {
-    padding-left: 400px;
-}
-
-
 
 /* <!-- Prototyping --> */
 
 .lowprototype {
     margin-top: 50px;
+}
+
+.goals2 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 
@@ -297,7 +366,7 @@ ul {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.card-img-top  {
+.card-img-top {
     height: auto;
 }
 
@@ -307,17 +376,21 @@ ul {
 
 
 .row3 {
-
     padding-bottom: 30px;
 }
 
 
-.fourFive {height: 422px;}
 
 
+.pp { 
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: radial-gradient(#FF6835 5%, white 70%);
+}
 
 
-/* Prototype to Figma*/
+/* Prototype to Figma
 
 .MP2 {
     width: 20%;
@@ -344,16 +417,19 @@ ul {
     align-items: center;
     margin-bottom: 100px;
     margin-top: 100px;
-}
+} */
+
+
+
+
 
 /* Buttons*/
 
 .projects {
-    background-color: #07439C;
+    background-color: #004E89;
     font-weight: 600;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    ;
-
+    margin-left: 550px;
 }
 
 .projects:hover {
@@ -367,7 +443,7 @@ ul {
 
 .contactButton:hover {
     transform: all 0.5s ease-in;
-    background-color: #07439C;
+    background-color: #004E89;
     color: white;
     font-weight: 600;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -376,22 +452,48 @@ ul {
 
 .contactButton {
     background-color: pink;
-    color: #07439C;
+    color: #004E89;
     font-weight: 600;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+   margin-top: 50px;
+    margin-left: 550px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .thankYou {
-    margin-bottom: 20px;
+    /* margin-bottom: 500px; */
     font-size: 28px;
     font-family: 'Merriweather', serif;
+    padding-top: 10px;
 }
 
+.lastPIC {
+    margin-left: 520px;}
 
+
+.COMPETITOR {
+    padding-right: 50px;
+}
+
+.side {
+   width: 44rem;
+    height: 800px;
+}
 
 
 @media all and (max-width:900px) {
 
+
+    .COMPETITOR {
+        padding-bottom: 50px;
+    }
+
+    .jumbotron {
+        background-color: #004E89;
+        border-radius: 0rem 0rem 3rem 3rem;
+        /* width: auto; */
+        height: 600px;}
 
     .D {
         position: relative !important;
@@ -402,6 +504,11 @@ ul {
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 20px;
+    }
+
+
+    .rowUser{
+        margin-left: 50px;
     }
 
     .logo {
@@ -434,11 +541,33 @@ ul {
     }
 
     .z {
-     
+
         margin-left: 0;
-       
     }
-    
+
+
+    .card-img-bottom2 {
+        margin-bottom: 100px;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+.contactButton {
+   margin-bottom: 30px;
+    margin-left: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.projects {
+    margin-left: 100px;
+}
+
+
+.lastPIC {
+    margin-left: 120px;}
+
     
 
 }
