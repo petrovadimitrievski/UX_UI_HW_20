@@ -427,16 +427,25 @@ ul {
 } */
 
 
+.end {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
 
-
+.text-center1 { padding-top: 30px;}
 
 /* Buttons*/
 
 .projects {
     background-color: #004E89;
+    color: white;
     font-weight: 600;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    margin-left: 550px;
+
+    /* padding-left: 50px;
+    padding-right: 50px; */
 }
 
 .projects:hover {
@@ -446,6 +455,18 @@ ul {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+
+
+    .lastPIC {
+        width:250px;
+         height:150px;
+        /* margin-left: 520px; */
+    }
+
+.side {
+   width: 44rem;
+    height: 800px;
+}
 
 
 .contactButton:hover {
@@ -462,29 +483,23 @@ ul {
     color: #004E89;
     font-weight: 600;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-   margin-top: 50px;
-    margin-left: 550px;
     padding-left: 50px;
     padding-right: 50px;
+
 }
 
 .thankYou {
     /* margin-bottom: 500px; */
     font-size: 28px;
     font-family: 'Merriweather', serif;
-    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+ 
 }
 
-.lastPIC {
-    margin-left: 520px;}
 
 
 
-
-.side {
-   width: 44rem;
-    height: 800px;
-}
 
 
 @media all and (max-width:900px) {

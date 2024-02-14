@@ -139,7 +139,8 @@ h4 {
 
 .Project {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
+    /* background-color: rgb(245, 242, 238); */
 }
 
 
@@ -173,7 +174,7 @@ h4 {
 
 .T {
     width: auto;
-    height: 500px;
+    height: 600px;
 }
 
 .TT {
@@ -238,6 +239,15 @@ h4 {
     
 }
 
+.alist2 {
+
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    
+}
 
 
 i {
@@ -349,7 +359,7 @@ i {
 
 .rowUser {
     margin: auto;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
  
 }
 
@@ -461,7 +471,7 @@ i {
 
 
 .scenario {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 color: #FF6835;
@@ -502,23 +512,32 @@ color: #FF6835;
     margin-top: 50px;
 }
 
-/* .goals2 {
-    font-size: 22px;
-    font-weight: 600;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-} */
 
 
 /* <!-- Testing and Iterating --> */
 
 
+/* Slideshow carosel Iteration */
+.carousel-control-prev-icon,.carousel-control-next-icon   {background-color: #80CC2A;
+border-radius: 70px;
+size: 100px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+     
+     width: 70rem;
+    height: 35rem;}
+
+
+    .carousel-item{ padding-bottom: 100px;}
+
 .iteration {
     padding-top: 100px;
 }
 
-
-
-
+.caro {  font-size: 22px;
+    font-weight: 600;
+    text-align: center;}
 
 .card-img-top {
     height: auto;
@@ -541,32 +560,9 @@ color: #FF6835;
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: radial-gradient(#FF6835 5%, white 70%);
-} */
+} 
 
 
-/* Prototype to Figma
-
-.MP2 {
-    width: 20%;
-    height: auto;
-    margin: 50px auto 0 auto;
-}
-
-
-.MP3 {
-    width: 40%;
-    height: auto;
-    margin: 50px auto 0 auto;
-
-}
-
-
-.final {
-    padding-top: 50px;
-}
-
-
- */
 
  .end {
     text-align: center;
@@ -576,7 +572,11 @@ color: #FF6835;
 }
 
 
+/* 
+<!--  Final Thoughts / Conclusion --> */
+                                    
 
+.text-center1 { padding-top: 30px;}
 
 
 
@@ -584,9 +584,13 @@ color: #FF6835;
 
 .projects {
     background-color: #004E89;
+    color: white;
     font-weight: 600;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    margin-left: 550px;
+
+    /* padding-left: 50px;
+    padding-right: 50px; */
+  
 }
 
 .projects:hover {
@@ -612,25 +616,25 @@ color: #FF6835;
     color: #004E89;
     font-weight: 600;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-   margin-top: 50px;
-    margin-left: 550px;
     padding-left: 50px;
     padding-right: 50px;
-   margin-bottom: 30px;
+
 }
 
 .thankYou {
     /* margin-bottom: 500px; */
     font-size: 28px;
     font-family: 'Merriweather', serif;
-   
-    padding-left: 50px;
+    align-items: center;
+   text-align: center;
+ 
 }
 
 .lastPIC {
     width:250px;
      height:150px;
-    margin-left: 520px;}
+    /* margin-left: 520px; */
+}
 
 
 .COMPETITOR {
@@ -641,6 +645,9 @@ color: #FF6835;
    width: 44rem;
     height: 800px;
 }  
+
+
+
 
 
 @media all and (max-width:900px) {
