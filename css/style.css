@@ -504,6 +504,10 @@ ul {
 
 @media all and (max-width:900px) {
 
+    .logo {
+        padding-top: 100px;
+        padding-left: 50px;
+    }
 
     .COMPETITOR {
         padding-bottom: 50px;
@@ -583,19 +587,20 @@ padding-right: 100px;}
 
 .contactButton {
    margin-bottom: 30px;
-    margin-left: 150px;
+    /* margin-left: 100px; */
     padding-left: 50px;
     padding-right: 50px;
 
 }
+.text-center1 { padding-top: 0px;}
 
-.projects {
+/* .projects {
     margin-left: 100px;
-}
+} */
 
 
-.lastPIC {
-    margin-left: 120px;}
+/* .lastPIC {
+    margin-left: 120px;} */
 
     
 
